@@ -1,3 +1,15 @@
+!!This repository will only include the frontend!!
+
+Firebase for verification
+
+Heroku for deployment
+
+React:
+  - npx create-react-app myinstagram
+  - npm install
+      - MUI, Bootstrap, React-icons
+Spring Boot
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
