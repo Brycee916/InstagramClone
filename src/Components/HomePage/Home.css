@@ -1,0 +1,12 @@
+.navbar_img {
+    margin: 15px 10px;
+}
+.home_searchbar {
+    height: 30px;
+    width: 215px;
+    margin-top: 10px;
+    margin-left: 120px;
+    border: 1px solid #dbdbdb;
+    text-align: center;
+    background-color: #F1F1F1;
+}

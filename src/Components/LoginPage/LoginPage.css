@@ -1,0 +1,104 @@
+body {
+    background-color: #fdfdfd;
+}
+.loginpage_main {
+    display: flex;
+    margin-top: 80px;
+    margin-left: -65px;
+}
+
+.loginpage_logo {
+    width: 175px;
+    margin-top: 25px;
+}
+
+.loginpage_rightcomponent {
+    /* height: 409px; */
+    padding-bottom: 25px;
+    width: 350px;
+    border: 1px solid #DBDBDB;
+    margin-top: 25px;
+    text-align: center;
+    background-color: white;
+}
+
+.loginpage_signin {
+    margin-top: 25px;
+}
+.loginpage_text {
+    width: 253px;
+    height: 36px;
+    margin: 3px;
+    border: 1px solid #DBDBDB;
+    background-color: #FAFAFA;
+    padding-left: 10px;
+    border-radius: 3px;
+    font-size: 13px;
+}
+.loginpage_button {
+    width: 268px;
+    height: 32px;
+    border-radius: 8px;
+    border: 1px solid #4cb2f7;
+    background-color: #4cb2f7;
+    color: white;
+    margin-top: 11px;
+    font-weight: bold;
+}
+.login_or_div {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.login_divider {
+    width: 100px;
+    height: 0px;
+    border: 1px solid #DBDBDB;
+    margin-top: 10px
+}
+.login_or {
+    margin: 0 20px;
+    color: #999999;
+    font-weight: bold;
+    font-size: 14px;
+}
+.login_fb_txt {
+    color: #395185;
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: 33px;
+}
+.login_fogot_pswd_txt {
+    color: #395185;
+    color: rgba(var(--fe0, 0, 55, 107), 1);
+    font-size: 13px;
+    line-height: 14px;
+    margin-top: 23px;
+    text-align: center;
+}
+
+.loginpage_signup {
+    height: 60px;
+    width: 350px;
+    border: 1px solid #DBDBDB;
+    margin-top: 10px;
+    text-align: center;
+    background-color: white;
+}
+.loginpage_signup_txt {
+    font-size: 15px;
+    margin-top: 18px;
+}
+
+.loginpage_getapp_txt {
+    height: 105px;
+    width: 350px;
+    text-align: center;
+    margin-top: 13px;
+}
+.loginpage_apps {
+    margin-top: 16px;
+}
+.loginpage_app {
+    margin-right: 6px;
+}

@@ -1,0 +1,27 @@
+.storiesbar_container {
+    height: 120px;
+    width: 710px;
+    background-color: #FDFDFD;
+    /* border: 1px solid #dbdbdb; */
+    margin-top: 30px;
+    display: flex;
+    overflow-x: scroll;
+}
+.storiesbar_container::-webkit-scrollbar {
+    display: none;
+}
+
+.storiesbar_story {
+    margin: 25px 15px;
+}
+.storiesbar_img {
+    min-width: 55px;
+    min-height: 55px;
+    border: 3px solid #df3968;
+}
+.storiesbar_username {
+    font-size: 12px;
+    max-width: 60px;
+    overflow-x: hidden;
+    text-align: center;
+}

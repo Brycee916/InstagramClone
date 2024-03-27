@@ -1,0 +1,54 @@
+
+.navbar_main {
+    width: 312px;
+    height: 100vh;
+    border-right: 1px solid #DBDBDB;
+    padding-top: 34px;
+    /* margin-top: 34px; */
+    margin-left: 23px;
+    /* padding-left: 23px; */
+    list-style: none;
+    position:fixed;
+    left: 0;
+}
+
+.navbar_top_left {
+    width: 300px;
+    height: 59px;
+    margin-left: -2px;
+    margin-bottom: 9px;
+}
+.navbar_ig_logo {
+    width: 108px;
+    filter: contrast(1000);
+}
+.navbar_home_section {
+    height: 25px;
+    width: 263px;
+    padding-left: 13px;
+    padding-top: 15px;
+    padding-right: 31px;
+    padding-bottom: 9px;
+    margin-left: -10px;
+    transition: background-color 0.3s ease-in step-end;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.navbar_home_section:hover{
+    background-color: #DFDFDF;
+}
+
+.navbar_home_word {
+    position: absolute;
+    margin-left: 13px;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #000;
+}
+.navbar_home_word:focus {
+    background-color: transparent;
+    outline: none;
+    text-decoration: none;
+}
