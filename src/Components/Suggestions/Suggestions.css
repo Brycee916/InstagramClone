@@ -1,0 +1,39 @@
+.suggested_heading{
+    margin: 12px 0px 16px 0px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #818181
+}
+.info_container_container{
+    margin-left: 6px;
+    width: 315px;
+    height: 300px;
+}
+.info__container_sugg{
+    margin-bottom: 15px;
+    width: 315px;
+    display:flex;
+}
+.info__image{
+    min-width: 30px;
+    min-height: 30px;
+}
+.info__username_sugg{
+    margin-top: 3px;
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.info__desc_sugg{
+    margin-top:-1px;
+    margin-left: 10px;
+    font-size: 12px;
+    color: #818181;
+}
+.info__switch_sugg{
+    font-size: 13px;
+    font-weight: 500;
+    color: #2997f1;
+    margin-left: 80px;
+    margin-top: 10px;
+}

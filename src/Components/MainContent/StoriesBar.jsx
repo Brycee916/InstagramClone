@@ -2,6 +2,7 @@ import React, {useEffect, useState} from 'react'
 import './StoriesBar.css';
 import Avatar from '@mui/material/Avatar';
 import storyImg from '../../images/pp1.png';
+import storyUploadImg from '../../images/statusadd.png';
 
 const StoriesBar = () => {
 
@@ -61,6 +62,7 @@ const StoriesBar = () => {
   return (
     <div>
         <div className="storiesbar_container">
+            <img src={storyUploadImg} className='storiesbar_upload' width="60px" height="60px"/>
             {
                 statusList.map((item, index) => (
                     <div className='storiesbar_story'>

@@ -3,7 +3,7 @@
     width: 630px;
     background-color: #FDFDFD;
     /* border: 1px solid #dbdbdb; */
-    margin-top: 30px;
+    margin-top: 5px;
     display: flex;
     overflow-x: scroll;
 }
@@ -18,10 +18,14 @@
     min-width: 55px;
     min-height: 55px;
     border: 3px solid #df3968;
+    z-index: 0;
 }
 .storiesbar_username {
     font-size: 12px;
     max-width: 60px;
     overflow-x: hidden;
     text-align: center;
+}
+.storiesbar_upload{
+    margin: 25px 8px;
 }

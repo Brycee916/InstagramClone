@@ -1,0 +1,28 @@
+.info__container{
+    width: 300px;
+    height: 56px;
+    display: flex;
+}
+.info__image{
+    min-width: 30px;
+    min-height: 30px;
+}
+.info__username{
+    margin-top: 3px;
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.info__desc{
+    margin-top:-1px;
+    margin-left: 10px;
+    font-size: 14px;
+    color: #818181;
+}
+.info__switch{
+    font-size: 13px;
+    font-weight: 500;
+    color: #2997f1;
+    margin-left: 80px;
+    margin-top: 10px;
+}
